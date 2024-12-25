@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лаборатория Искусственного Интеллекта</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    
+    <header>
+        <h1>Лаборатория Искусственного Интеллекта</h1>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="research.html">Исследования</a>
+            <a href="contact.html">Контакты</a>
+        </nav>
+    </header>
+    <div class="main-content">
+    <main>
+        <section id="hero">
+            <div class="carousel">
+                <img src="img/ии1.jpg" alt="ИИ изображение 1" class="active">
+            </div>
+            <h2>Добро пожаловать в нашу лабораторию!</h2>
+            <p>Мы разрабатываем передовые технологии ИИ, применяемые в различных областях.</p>
+            <a href="#research" class="btn">Узнать больше</a>
+        </section>
+        <hr>
+        <section id="research">
+            <h2>Последние исследования</h2>
+            <div class="research-item hidden">
+                <h3>Проект Alpha</h3>
+                <p style="color: black;">Разработка алгоритма для прогнозирования трендов в больших данных.</p>
+            </div>
+            <div class="research-item hidden">
+                <h3>Проект Beta</h3>
+                <p style="color: black;">Исследование применения нейронных сетей в медицинских диагнозах.</p>
+            </div>
+            <div class="research-item hidden">
+                <h3>Проект Gamma</h3>
+                <p style="color: black;">Искусственный интеллект для автоматизации производственных процессов.</p>
+            </div>
+            <div class="research-item hidden">
+                <h3>Проект Delta</h3>
+                <p style="color: black;">Разработка систем распознавания лиц и аутентификации.</p>
+            </div>
+            <div class="research-item hidden">
+                <h3>Проект Epsilon</h3>
+                <p style="color: black;">Создание чат-ботов для поддержки клиентов.</p>
+            </div>
+        </section>
+        <hr>
+        <section id="collaboration">
+            <h2>Сотрудничество</h2>
+            <p>Мы открыты к сотрудничеству с компаниями и исследовательскими группами. Свяжитесь с нами, чтобы обсудить возможности.</p>
+            <a href="contact.html" class="btn">Связаться с нами</a>
+        </section>
+        <hr>
+        <section id="team">
+            <h2>Наша команда</h2>
+            <div class="team-container">
+                <div class="team-member hidden">
+                    <img src="img/10.png" alt="Член команды 1" style="width: 50px; height: 50px;">
+                    <h3>Иван Иванов</h3>
+                    <p>Руководитель исследования в области машинного обучения.</p>
+                </div>
+                <div class="team-member hidden">
+                    <img src="img/10.png" alt="Член команды 2" style="width: 50px; height: 50px;">
+                    <h3>Анна Петрова</h3>
+                    <p>Специалист по нейронным сетям и глубокому обучению.</p>
+                </div>
+                <div class="team-member hidden">
+                    <img src="img/10.png" alt="Член команды 3" style="width: 50px; height: 50px;">
+                    <h3>Сергей Смирнов</h3>
+                    <p>Эксперт по анализу данных.</p>
+                </div>
+                <div class="team-member hidden">
+                    <img src="img/10.png" alt="Член команды 4" style="width: 50px; height: 50px;">
+
+                    <h3>Мария Кузнецова</h3>
+                    <p>Специалист по компьютерному зрению.</p>
+                </div>
+                <div class="team-member hidden">
+                    <img src="img/10.png" alt="Член команды 5" style="width: 50px; height: 50px;">
+                    <h3>Дмитрий Фёдоров</h3>
+                    <p>Разработчик программного обеспечения.</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="feedback">
+            <h2>Отзывы</h2>
+            <div class="feedback-item">
+                <p style="color: black;">"Работа с лабораторией была настоящим удовольствием! Их исследования открыли нам новые горизонты."</p>
+                <cite>- Олег П.</cite>
+            </div>
+            <div class="feedback-item">
+                <p style="color: black;">"Команда профессионалов! Мы получили отличные результаты."</p>
+                <cite>- Екатерина В.</cite>
+            </div>
+        </section>
+        <hr>
+        <section id="contact-form">
+            <h2>Оставьте ваш отзыв</h2>
+            <form id="form">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="email" placeholder="Ваш email" required>
+                <textarea placeholder="Ваш отзыв" required></textarea>
+                <button type="submit" id="open-modal">Отправить</button>
+            </form>
+        </section>
+        <hr>
+        <section id="map">
+            <h2>Наша локация</h2>
+            <div class="map-container">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A26693d11481aa8b613cfa4aabfae9aaad661910b6ed64a0c364f7455e2395c09&amp;source=constructor" frameborder="0"></iframe>
+            </div>
+        </section>
+    </main>
+    </div>
+    <footer>
+        <p>&copy; 2023 Лаборатория Искусственного Интеллекта</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="scroll.js"></script>
+</body>
+</html>
+
+
