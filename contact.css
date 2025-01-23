@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #2d53d3;
     color: white;
     padding: 20px;
     text-align: center;
@@ -59,12 +59,12 @@ textarea {
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-    border-color: #4CAF50;
+    border-color: #2d53d3;
     outline: none;
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #2d53d3;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -75,7 +75,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #2d53d3;
 }
 
 
